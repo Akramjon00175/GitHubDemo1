@@ -16,6 +16,8 @@
 		3C784B7D28BA8E1000FF2826 /* GitHubDemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C784B7C28BA8E1000FF2826 /* GitHubDemo1Tests.swift */; };
 		3C784B8728BA8E1000FF2826 /* GitHubDemo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C784B8628BA8E1000FF2826 /* GitHubDemo1UITests.swift */; };
 		3C784B8928BA8E1000FF2826 /* GitHubDemo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C784B8828BA8E1000FF2826 /* GitHubDemo1UITestsLaunchTests.swift */; };
+		3C784B9828BA8E8200FF2826 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C784B9628BA8E8200FF2826 /* HomeViewController.swift */; };
+		3C784B9928BA8E8200FF2826 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C784B9728BA8E8200FF2826 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C784B8228BA8E1000FF2826 /* GitHubDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C784B8628BA8E1000FF2826 /* GitHubDemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemo1UITests.swift; sourceTree = "<group>"; };
 		3C784B8828BA8E1000FF2826 /* GitHubDemo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubDemo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C784B9628BA8E8200FF2826 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C784B9728BA8E8200FF2826 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,10 @@
 			children = (
 				3C784B6528BA8E0F00FF2826 /* AppDelegate.swift */,
 				3C784B6728BA8E0F00FF2826 /* SceneDelegate.swift */,
-				3C784B6928BA8E0F00FF2826 /* ViewController.swift */,
-				3C784B6B28BA8E0F00FF2826 /* Main.storyboard */,
-				3C784B6E28BA8E1000FF2826 /* Assets.xcassets */,
-				3C784B7028BA8E1000FF2826 /* LaunchScreen.storyboard */,
+				3C784B9628BA8E8200FF2826 /* HomeViewController.swift */,
+				3C784B9728BA8E8200FF2826 /* HomeViewController.xib */,
 				3C784B7328BA8E1000FF2826 /* Info.plist */,
+				3C784B9528BA8E3A00FF2826 /* Storyboard */,
 			);
 			path = GitHubDemo1;
 			sourceTree = "<group>";
@@ -125,6 +128,17 @@
 				3C784B8828BA8E1000FF2826 /* GitHubDemo1UITestsLaunchTests.swift */,
 			);
 			path = GitHubDemo1UITests;
+			sourceTree = "<group>";
+		};
+		3C784B9528BA8E3A00FF2826 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3C784B6928BA8E0F00FF2826 /* ViewController.swift */,
+				3C784B6B28BA8E0F00FF2826 /* Main.storyboard */,
+				3C784B6E28BA8E1000FF2826 /* Assets.xcassets */,
+				3C784B7028BA8E1000FF2826 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,7 @@
 				3C784B7228BA8E1000FF2826 /* LaunchScreen.storyboard in Resources */,
 				3C784B6F28BA8E1000FF2826 /* Assets.xcassets in Resources */,
 				3C784B6D28BA8E0F00FF2826 /* Main.storyboard in Resources */,
+				3C784B9928BA8E8200FF2826 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 				3C784B6A28BA8E0F00FF2826 /* ViewController.swift in Sources */,
 				3C784B6628BA8E0F00FF2826 /* AppDelegate.swift in Sources */,
 				3C784B6828BA8E0F00FF2826 /* SceneDelegate.swift in Sources */,
+				3C784B9828BA8E8200FF2826 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
